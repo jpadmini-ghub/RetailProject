@@ -16,6 +16,7 @@ pipeline {
 
           stage('Test') {
             steps {
+               echo "starting the testing"
                sh '/bitnami/jenkins/home/.local/bin/pipenv run pytest'
             }
         }
