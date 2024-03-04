@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        LABS = credentials('labcreds')
+        LABS = credentials('LabCreds')
     }
 
     stages {
